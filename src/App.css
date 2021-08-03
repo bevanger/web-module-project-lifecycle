@@ -1,0 +1,89 @@
+h1{
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+.userInfo{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.cardDiv{
+  display: flex;
+  align-items: flex-start;
+  border: 4px solid black;
+  border-radius: 1%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.userImg{
+  max-width: 20%;
+  margin: 5%;
+  border: 2px solid black;
+  border-radius: 100%;
+}
+.userData{
+  display:flex;
+  flex-direction: column;
+  
+}
+h2{
+  font-size: 1rem;
+}
+.userName{
+  margin-top: 10%;
+  margin-bottom: 1%;
+}
+.userUrl{
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.userFollowers{
+  margin-top: 1%;
+  margin-bottom:1%;
+}
+.userFollowing{
+  margin-top: 1%;
+  margin-bottom:1%;
+}
+button{
+  width: 20%;
+  margin-left: 40%;
+  margin-top: 3%;
+  margin-bottom:3%;
+  background-color: black;
+  color: white;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.followersCardDiv{
+  display: flex;
+  align-items: flex-start;
+  border: 4px solid black;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.followerImg{
+  max-width: 20%;
+  margin: 5%;
+  border: 2px solid black;
+  border-radius: 100%;
+}
+.followerName{
+  margin-top: 10%;
+  margin-bottom: 1%;
+}
+.followerUrl{
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.followerFollowers{
+  margin-top: 1%;
+  margin-bottom:1%;
+}
+.followerFollowing{
+  margin-top: 1%;
+  margin-bottom:1%;
+}
